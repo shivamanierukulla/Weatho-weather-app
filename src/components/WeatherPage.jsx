@@ -164,7 +164,7 @@ function WeatherPage() {
 
       {
        foreCast?.list?.map((it,index)=>(
-           <ForeCast key={index} data={it}/>
+           <Forecast key={index} data={it}/>
         ))
       }
 
