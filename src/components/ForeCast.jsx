@@ -1,5 +1,5 @@
 import React from "react";
-import "./Forecast.css";
+import "./ForeCast.css";
 
 function ForeCast({ data }) {
 
