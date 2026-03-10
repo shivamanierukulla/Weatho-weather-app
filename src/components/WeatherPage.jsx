@@ -1,6 +1,6 @@
 import SearchBar from "./SearchBar";
 import CurrentWeather from "./CurrentWeather";
-import ForeCast from "./ForeCast";
+import Forecast from "./Forecast"
 import { useEffect, useState } from "react";
 import "./WeatherPage.css";
 
