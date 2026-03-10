@@ -1,0 +1,71 @@
+.weather-page{
+min-height:100vh;
+display:flex;
+justify-content:center;
+padding:20px;
+
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.container{
+width:100%;
+max-width:1400px;
+
+background:rgba(255,255,255,0.25);
+backdrop-filter:blur(12px);
+
+border-radius:20px;
+padding:30px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.forecast-title{
+margin-top:30px;
+margin-bottom:15px;
+font-weight:600;
+}
+
+.forecast-container{
+padding-bottom:10px;
+}
+
+.status{
+text-align:center;
+margin-top:40px;
+}
+
+/* sm ≥576px */
+@media (min-width:576px){
+.container{
+padding:25px;
+}
+}
+
+/* md ≥768px */
+@media (min-width:768px){
+.container{
+padding:30px;
+}
+}
+
+/* lg ≥992px */
+@media (min-width:992px){
+.container{
+max-width:1000px;
+}
+}
+
+/* xl ≥1200px */
+@media (min-width:1200px){
+.container{
+max-width:1200px;
+}
+}
+
+/* xxl ≥1400px */
+@media (min-width:1400px){
+.container{
+max-width:1350px;
+}
+}

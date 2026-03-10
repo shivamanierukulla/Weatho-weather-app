@@ -1,0 +1,82 @@
+.weather-card{
+
+display:flex;
+align-items:center;
+
+gap:60px;   /*  creates large space between icon and details */
+
+background:white;
+
+border-radius:20px;
+
+padding:25px;
+
+margin-top:20px;
+
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+
+}
+
+/* left side */
+
+.weather-left{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+/* icon */
+
+.weather-icon{
+width:120px;
+}
+
+/* right side */
+
+.weather-right{
+flex:2;
+}
+
+.temp{
+font-size:48px;
+font-weight:700;
+margin:5px 0;
+}
+
+.description{
+text-transform:capitalize;
+font-size:16px;
+margin-bottom:5px;
+}
+
+.location{
+color:#555;
+margin-bottom:10px;
+}
+
+.weather-details{
+display:flex;
+gap:20px;
+font-size:14px;
+}
+
+/* responsive */
+
+@media (max-width:768px){
+
+.weather-card{
+flex-direction:column;
+gap:20px;
+text-align:center;
+}
+
+.weather-details{
+flex-direction:column;
+gap:8px;
+}
+
+.weather-icon{
+width:90px;
+}
+
+}
