@@ -14,7 +14,7 @@ function WeatherPage() {
     const[loading,setLoading]=useState(false)
 
     //api keys and api integration
-    const apiKey='8d4e9d2545b702e7359bd96e18f7c28d';
+    const apiKey=import.meta.env.VITE_API_KEY;;
 
 
     //fetching via live location
